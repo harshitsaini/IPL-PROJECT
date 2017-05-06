@@ -1,0 +1,17 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table O_Cap6
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap6 values
+('Michael Hussey',733,17,'Chennai Super Kings'),
+('Chris Gayle',608,16,'Royal Challengers Bangalore'),
+('Virat kohli',634,16,'Royal Challengers Bangalore'),
+('Suresh Raina',548,17,'Chennai Super Kings'),
+('Shane Watson',543,16,'Rajasthan Royals'),
+('Rohit Sharma',538,19,'(Mumbai Indians');

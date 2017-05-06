@@ -1,0 +1,35 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table Result_summary
+(
+Team varchar(30),
+Span Varchar(10),
+Titles Integer,
+Matches Integer,
+Wins Integer,
+Loses Integer,
+Ties Integer,
+NetRate Integer,
+WinPercentage Float,
+Best varchar(30),
+Worst varchar(30),
+foreign key (team) references teacher 
+(team) on update cascade on delete restrict
+);
+Insert into Result_summary values
+('Chennai Super Kings','2008–2013',2,82,47,33,1,1,58.64,'Champions (2 times)','Semi-finals'),
+('Deccan Chargers','2008–2012',1,75,29,46,0,0,38.66,'Champions','8th of 8'),
+('Delhi Daredevils','2008–2013',	0,76,39,37,0,1,51.31,'Semi-finals','10th of 10'),
+('Kings XI Punjab','2008–2013',0,74,36,37,	1,0,49.32,'Semi-finals','8th of 8'),
+('Kochi Tuskers Kerala','2011-2011',0,14,6,8,0,0,42.85,'8th of 10','8th of 10'),
+('Kolkata Knight Riders','2008–2013',1,73,37,35,1,0,51.36,'Champions','8th of 8'),
+('Mumbai Indians','2008–2013',1,78,44,33,0,0,56.41,'Champions','7th of 8'),
+('Pune Warriors India','2011–2013',0,32,8,23,0,1,25.80,'9th of 10','9th of 9'),
+('Rajasthan Royals','2008–2013',1,73,38,34,1,0,52.73,'Champions','7th of 8'),
+('Royal Challengers Bangalore','2008–2013',0,80,40,38,1,1,51.26,'Runners-up (2 times)','7th of 8'),
+('Sunrisers Hyderabad','2013-2013',0,15,8,6,1,0,56.66,'4th of 10','4th of 10');
+
+
+
+

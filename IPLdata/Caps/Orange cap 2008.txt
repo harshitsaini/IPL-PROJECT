@@ -1,0 +1,21 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table O_Cap1
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap1 values
+('Shaun Marsh',616,11,'Kings XI Punjab'),
+('Gautam Gambhir',534,14,'Delhi Daredevils'),
+('Sanath Jayasuriya',514,14,'Mumbai Indians'),
+('Shane Watson',472,15,'Rajasthan Royals'),
+('Graeme Smith',441,11,'Rajasthan Royals'),
+('Adam Gilchrist',436,14,'Deccan Charges');
+
+
+
+

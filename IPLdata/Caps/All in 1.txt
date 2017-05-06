@@ -1,0 +1,97 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table O_Cap1
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap1 values
+('Shaun Marsh',616,11,'Kings XI Punjab'),
+('Gautam Gambhir',534,14,'Delhi Daredevils'),
+('Sanath Jayasuriya',514,14,'Mumbai Indians'),
+('Shane Watson',472,15,'Rajasthan Royals'),
+('Graeme Smith',441,11,'Rajasthan Royals'),
+('Adam Gilchrist',436,14,'Deccan Charges');
+
+Create Table O_Cap2
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap2 values
+('Matthew Hayden',572,12,'Chennai Super Kings'),
+('Adam Gilchrist',495,16,'Deccan Chargers'),
+('AB de Villiers',465,15,'Delhi Daredevils'),
+('Suresh Raina',438,14,'Chennai Super Kings'),
+('Tillakaratne Dilshan',418,14,'Delhi Daredevils'),
+('JP Duminy',372,13,'Mumbai Indians');
+
+Create Table O_Cap3
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap3 values
+('Sachin Tendulkar',618,15,'Mumbai Indian'),
+('Jacques Kallis',572,16,'Royal Challengers Bangalore'),
+('Suresh Raina',520,16,'Chennai Super Kings'),
+('Sourav Ganguly',493,14,'Kolkata Knight Riders'),
+('Murali Vijay',458,15,'Chennai Super King'),
+('Mahela Jayawardene',439,13,'Kings XI Punjab');
+
+Create Table O_Cap4
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap4 values
+('Chris Gayle',608,12,'Royal Challengers Bangalore'),
+('Virat Kohli',557,16,'Royal Challengers Bangalore'),
+('Sachin Tendulkar',553,16,'Mumbai Indians'),
+('Shaun Marsh',504,13,'Kings XI Punjab'),
+('Michael Hussey',492,14,'Chennai Super Kings'),
+('Paul Valthaty',463,14,'Kings XI Punjab');
+
+Create Table O_Cap5
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap5 values
+('Chris Gayle',733,14,'Royal Challengers Bangalore'),
+('Gautam Gambhir',590,17,'Kolkata Knight Riders'),
+('Shikhar Dhawan',569,15,'Deccan Chargers'),
+('Ajinkya Rahane',560,16,'Rajasthan Royals'),
+('Virender Sehwag',495,16,'Dehli Daredevils'),
+('Cameron White',479,13,'Deccan Chargers');
+
+Create Table O_Cap6
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap6 values
+('Michael Hussey',733,17,'Chennai Super Kings'),
+('Chris Gayle',608,16,'Royal Challengers Bangalore'),
+('Virat kohli',634,16,'Royal Challengers Bangalore'),
+('Suresh Raina',548,17,'Chennai Super Kings'),
+('Shane Watson',543,16,'Rajasthan Royals'),
+('Rohit Sharma',538,19,'(Mumbai Indians');
+
+
+
+
+

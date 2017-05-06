@@ -1,0 +1,16 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table P_Cap4
+(
+Name varchar(30),
+Wickets Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into P_cap4 values
+('Lasith Malinga',28,16,'Mumbai Indians'),
+('Munaf Patel',22,15,'Mumbai Indians'),
+('Sreenath Aravind',21,13,'Royal Challengers Bangalore'),
+('Ravishchandra Ashwin',20,16,'Chennai Super Kings'),
+('Amit Mishra',19,14,'Deccan Chargers');

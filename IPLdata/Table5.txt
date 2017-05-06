@@ -1,0 +1,26 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table Lowest_match_aggregates
+(
+Score Integer,
+Winner Varchar(30),
+Loser Varchar(30),
+Overs Float,
+RunRate Float,
+Wkts Integer,
+Season Integer,
+Ground Varchar(60),
+Scorecard Varchar(20)
+);
+Insert Into Lowest_match_aggregates Values
+(135,'Mumbai Indians','Kolkata Knight Riders',20.5,6.48,12,2008,
+'Mumbai – Wankhede Stadium','16 May 2008'),
+(161,'Sunrisers Hyderabad','Delhi Daredevils',33.0,4.87,14,2013,
+'Hyderabad – Rajiv Gandhi International Cricket Stadium','04 May 2013'),
+(162,'Delhi Daredevils','Kings XI Punjab',16.5,9.62,7,2009,
+'Cape Town – Newlands Cricket Ground','19 April 2009'),
+(166,'Kolkata Knight Riders','Rajasthan Royals',29.1,5.69,12,2011,
+'Kolkata – Eden Gardens','17 April 2011'),
+(168,'Royal Challengers Bangalore','Deccan Chargers',32.2,5.19,11,2010,
+'Navi Mumbai – DY Patil Stadium','24 April 2010');

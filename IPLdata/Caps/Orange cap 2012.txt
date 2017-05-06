@@ -1,0 +1,17 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table O_Cap5
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap5 values
+('Chris Gayle',733,14,'Royal Challengers Bangalore'),
+('Gautam Gambhir',590,17,'Kolkata Knight Riders'),
+('Shikhar Dhawan',569,15,'Deccan Chargers'),
+('Ajinkya Rahane',560,16,'Rajasthan Royals'),
+('Virender Sehwag',495,16,'Dehli Daredevils'),
+('Cameron White',479,13,'Deccan Chargers');

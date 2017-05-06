@@ -1,0 +1,16 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table P_Cap1
+(
+Name varchar(30),
+Wickets Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into P_cap1 values
+('Sohail Tanvir',22,11,'Rajasthan Royals'),
+('Shane Warne',19,15,'Rajasthan Royals'),
+('Sreesanth',19,15,'Kings XI Punjab'),
+('Shane Watson',17,15,'Rajasthan Royals'),
+('Manpreet Gony',17,16,'Chennai Super Kings');

@@ -1,0 +1,25 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table Largest_Victories_By_BallsRemaining
+(
+BallsRemaining Integer,
+Winner Varchar(30),
+Target Integer,
+Margin varchar(10),
+Overs Float,
+Loser Varchar(30),
+Season Integer,
+Ground Varchar(60),
+Scorecard Varchar(20)
+);
+Insert Into Largest_Victories_By_BallsRemaining values
+(87,'Mumbai Indians',68,'8 wickets',5.3,'Kolkata Knight Riders',2008
+,'Mumbai – Wankhede Stadium','16 May 2008'),
+(76,'Kochi Tuskers Kerala',98,'8 wickets',7.2,'Rajasthan Royals',2011
+,'Indore – Holkar Cricket Stadium','15 May 2011'),
+(56,'Royal Challengers Bangalore',93,'10 wickets',10.4,'Rajasthan Royals',2010
+,'Bangalore – M. Chinnaswamy Stadium','18 March 2010'),
+(48,'Deccan Chargers',155,'10 wickets',12.0,'Mumbai Indians',2008
+,'Navi Mumbai – DY Patil Stadium','27 April 2008'),
+(46,'Kings XI Punjab',100,'8 wickets',12.2,'Pune Warriors India',2013,'Pune – Subrata Roy Sahara Stadium','7 April 2013');

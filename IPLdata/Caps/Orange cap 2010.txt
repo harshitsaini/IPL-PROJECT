@@ -1,0 +1,17 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table O_Cap3
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap3 values
+('Sachin Tendulkar',618,15,'Mumbai Indian'),
+('Jacques Kallis',572,16,'Royal Challengers Bangalore'),
+('Suresh Raina',520,16,'Chennai Super Kings'),
+('Sourav Ganguly',493,14,'Kolkata Knight Riders'),
+('Murali Vijay',458,15,'Chennai Super King'),
+('Mahela Jayawardene',439,13,'Kings XI Punjab');

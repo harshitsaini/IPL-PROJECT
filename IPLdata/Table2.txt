@@ -1,0 +1,27 @@
+Drop Database IPl;
+Create Database IPL;
+Use IPL;
+Create Table HighestTotals
+(
+Score varchar(5),
+Team varchar(30),
+Opponent varchar(30),
+Over Float, 
+RunRate Float, 
+Inns Integer,
+Season Integer,
+Ground varchar(60),
+Scorecard Varchar(20)
+); 
+Insert Into Highest_Totals Values
+('263/5','Royal Challengers Bangalore','Pune Warriors India',20.0,13.15,1,2013,
+'Bangalore – M.Chinnaswamy Stadium','23 April 2013'),
+('246/5','Chennai Super Kings','Rajasthan Royals',20.0,12.30,1,2010,
+'Chennai – M. A. Chidambaram Stadium','03 April 2010'),
+('240/5','Chennai Super Kings','Kings XI Punjab',20.0,12.00,1,2008,
+'Mohali – Punjab Cricket Association Stadium','19 April 2008'),
+('232/2','Kings XI Punjab','Royal Challengers Bangalore',20.0,11.60,1,2011,
+'Dharamsala – HPCA Cricket Stadium','17 May 2011'),
+('231/4','Delhi Daredevils','Kings XI Punjab',20.0,11.55,1,2011,
+'Delhi – Feroz Shah Kotla','23 April 2011');
+

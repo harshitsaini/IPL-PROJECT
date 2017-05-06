@@ -1,0 +1,22 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table Smallest_Victories_By_Runs
+(
+Margin Varchar(6),
+Winner Varchar(30),
+Target Integer,
+Loser Varchar(60),
+Season Integer,
+Ground Varchar(60),
+Scorecard Varchar(20)
+);
+Insert Into Smallest_Victories_By_Runs values
+('1 run','Mumbai Indians',121,'Pune Warriors India',2012,'Pune – Subrata Roy Sahara Stadium','3 May 2012'),
+('1 run','Kings XI Punjab',135,'Deccan Chargers',2009,'Johannesburg – Wanderers Stadium',
+'17 May 2009'),
+('1 run','Delhi Daredevils',153,'Rajasthan Royals',2012,'Delhi – Feroz Shah Kotla','29 April 2012'),
+('1 run','Kings XI Punjab',190,'Mumbai Indians',2008,'Mumbai – Wankhede Stadium',
+'21 May 2008'),
+('2 runs','Kings XI Punjab',135,'Kolkata Knight Riders',2012,'Kolkata – Eden Gardens'
+,'15 April 2012');

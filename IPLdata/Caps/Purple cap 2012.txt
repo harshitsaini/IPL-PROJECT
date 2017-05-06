@@ -1,0 +1,16 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table P_Cap5
+(
+Name varchar(30),
+Wickets Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into P_cap5 values
+('Morne Morkel',25,16,'Delhi Daredevils'),
+('Sunil Narine',24,15,'Kolkata Knight Riders'),
+('Lasith Malinga',22,14,'Mumbai Indians'),
+('Umesh Yadav',19,17,'Delhi Daredevils'),
+('Vinay Kumar',19,15,'Royal Challengers Bangalore');

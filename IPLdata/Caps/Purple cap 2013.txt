@@ -1,0 +1,16 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table P_Cap6
+(
+Name varchar(30),
+Wickets Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into P_cap6 values
+('Dwayne Bravo',32,18,'Chennai Super Kings'),
+('James Faulkner',28,16,'Rajasthan Royals'),
+('Harbhajan Singh',24,19,'Mumbai Indians'),
+('Mitchell Johnson',24,17,'Mumbai Indians'),
+('Vinay Kumar',23,16,'Royal Challengers Bangalore');

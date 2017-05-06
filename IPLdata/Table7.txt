@@ -1,0 +1,27 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table Largest_Victories_By_Wickets
+(
+Margin varchar(10),
+Winner Varchar(30),
+Target Integer,
+BallsRemaining Integer,
+Overs Float,
+Loser Varchar(30),
+Season Integer,
+Ground Varchar(60),
+Scorecard Varchar(20)
+);
+Insert Into Largest_Victories_By_Wickets Values
+('10 wickets','Mumbai Indians',163,12,18.0,'Rajasthan Royals',2012,
+'Jaipur – Sawai Mansingh Stadium','20 May 2012'),
+('10 wickets','Deccan Chargers',155,48,12.0,'Mumbai Indians',2008,
+'Navi Mumbai – DY Patil Stadium','27 April 2008'),
+('10 wickets','Chennai Super Kings',139,16,17.2,'Kings XI Punjab',2013,
+'Mohali – Punjab Cricket Association Stadium','10 April 2013'),
+('10 wickets','Rajasthan Royals',134,41,13.1,'Mumbai Indians',2011,
+'Mumbai – Wankhede Stadium','20 May 2011'),
+('10 wickets','Royal Challengers Bangalore',93,56,10.4,'Rajasthan Royals',2010,
+'Bangalore – M. Chinnaswamy Stadium','18 March 2010');
+

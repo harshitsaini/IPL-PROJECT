@@ -1,0 +1,16 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table P_Cap2
+(
+Name varchar(30),
+Wickets Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into P_cap2 values
+('R.P. Singh',23,16,'Deccan Chargers'),
+('Anil Kumble',21,16,'Royal Challengers Bangalore'),
+('Ashish Nehra',19,19,'Delhi Daredevils'),
+('Lasith Malinga',17,18,'Mumbai Indians'),
+('Pragyan Ojha',17,18,'Deccan Charges');

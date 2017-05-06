@@ -1,0 +1,14 @@
+use ipl;
+create table teacher
+(
+tno int primary key,
+tname varchar (20)
+);
+Create table student
+(
+admnno in primary key,
+stname varchar(30),
+tno int,
+foreign key (tno) references teacher (tno) 
+on update cascade on delete restrict
+);

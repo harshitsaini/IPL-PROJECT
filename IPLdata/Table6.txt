@@ -1,0 +1,23 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table Largest_Victories_By_runs
+(
+Margin Varchar(10),
+Team Varchar(30),
+Target Integer,
+Opponent Varchar(30),
+Season Integer,
+Ground Varchar(60),
+Scorecard Varchar(20)
+);
+Insert Into Largest_Victories_By_runs Values
+('140 runs','Kolkata Knight Riders',223,'Royal Challengers Bangalore',2008,
+'Bangalore – M. Chinnaswamy Stadium','18 April 2008'),
+('130 runs','Royal Challengers Bangalore',264,'Pune Warriors India',2013,
+'Bangalore – M. Chinnaswamy Stadium','23 April 2013'),
+('111 runs','Kings XI Punjab',233,'Royal Challengers Bangalore',2011,
+'Dharamsala – HPCA Cricket Stadium','17 May 2011'),
+('105 runs','Rajasthan Royals',193,'Delhi Daredevils',2008,'Mumbai – Wankhede Stadium',
+'30 May 2008'),
+('98 runs','Mumbai Indians',219,'Delhi Daredevils',2010,'Delhi – Feroz Shah Kotla','17 March 2010');

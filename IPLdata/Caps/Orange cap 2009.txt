@@ -1,0 +1,17 @@
+Drop Database IPL;
+Create Database IPL;
+Use IPL;
+Create Table O_Cap2
+(
+Name varchar(30),
+Runs Integer,
+Matches Integer,
+Team Varchar (30)
+);
+Insert Into O_cap2 values
+('Matthew Hayden',572,12,'Chennai Super Kings'),
+('Adam Gilchrist',495,16,'Deccan Chargers'),
+('AB de Villiers',465,15,'Delhi Daredevils'),
+('Suresh Raina',438,14,'Chennai Super Kings'),
+('Tillakaratne Dilshan',418,14,'Delhi Daredevils'),
+('JP Duminy',372,13,'Mumbai Indians');

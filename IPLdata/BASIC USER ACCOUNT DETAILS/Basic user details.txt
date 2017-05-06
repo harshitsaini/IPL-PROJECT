@@ -1,0 +1,8 @@
+USE IPL;
+CREATE TABLE B_ACCCOUNT
+(
+Name varchar(30),
+Gender varchar(6),
+Phone_No Integer,
+Email_address varchar(30)
+);
